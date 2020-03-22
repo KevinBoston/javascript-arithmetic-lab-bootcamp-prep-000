@@ -11,14 +11,16 @@ function divide (a, b) {
   return a / b;
 }
 function increment (n) {
-  return n++;
+  n++;
+  return n;
 }
 function decrement (n) {
-  return n--;
+  n--;
+  return n;
 }
 function makeInt (n) {
   return parseInt(n, 10);
 }
-function perserveDecimal (n) {
+function preserveDecimal (n) {
   return parseFloat(n);
 }
